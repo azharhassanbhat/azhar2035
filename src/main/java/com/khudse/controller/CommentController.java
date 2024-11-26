@@ -21,6 +21,8 @@ public class CommentController {
         System.out.println(1000);
         System.out.println(2000);
         System.out.println(3000);
+        System.out.println(2000);
+        System.out.println(3000);
         CommentDto commentDto1 = postservice.createComment(commentDto,postId);
         return new ResponseEntity<>(commentDto1, HttpStatus.CREATED);
     }
